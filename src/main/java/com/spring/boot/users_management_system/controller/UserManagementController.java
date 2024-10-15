@@ -28,7 +28,7 @@ public class UserManagementController {
 
 	    @PostMapping("/auth/login")
 	    public ResponseEntity<ReqRes> login(@RequestBody ReqRes req){
-	        return ResponseEntity.ok(usersManagementService.login(req));
+	        return usersManagementService.login(req);
 	    }
 
 	    @PostMapping("/auth/refresh")

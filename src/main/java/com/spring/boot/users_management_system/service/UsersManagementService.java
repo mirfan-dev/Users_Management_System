@@ -37,7 +37,7 @@ public class UsersManagementService {
 	    public ResponseEntity<ReqRes> register(ReqRes registrationRequest){
 	        ReqRes resp = new ReqRes();
 
-	        try {
+
 	            OurUsers ourUser = new OurUsers();
 	            ourUser.setEmail(registrationRequest.getEmail());
 	            ourUser.setCity(registrationRequest.getCity());
@@ -57,18 +57,14 @@ public class UsersManagementService {
 	                return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(resp);
 	            }
 
-	            }catch (Exception e){
-	        	resp.setStatusCode(HttpStatus.INTERNAL_SERVER_ERROR.value());
-	            resp.setError("An error occurred: " + e.getMessage());
-	            return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body(resp);
-	        }
+
 			
 		
 	
 	    }
 
 
-	    public ReqRes login(ReqRes loginRequest){
+	    public ResponseEntity<ReqRes> login(ReqRes loginRequest){
 	        ReqRes response = new ReqRes();
 	        try {
 	            authenticationManager
@@ -77,18 +73,21 @@ public class UsersManagementService {
 	            var user = usersRepo.findByEmail(loginRequest.getEmail()).orElseThrow();
 	            var jwt = jwtUtils.generateToken(user);
 	            var refreshToken = jwtUtils.generateRefreshToken(new HashMap<>(), user);
-	            response.setStatusCode(200);
+	            
 	            response.setToken(jwt);
 	            response.setRole(user.getRole());
 	            response.setRefreshToken(refreshToken);
 	            response.setExpirationTime("24Hrs");
 	            response.setMessage("Successfully Logged In");
+	            response.setStatusCode(HttpStatus.OK.value());
+	            return ResponseEntity.ok(response); // Use ResponseEntity.ok() for better readability
 
 	        }catch (Exception e){
-	            response.setStatusCode(500);
-	            response.setMessage(e.getMessage());
+	        	response.setStatusCode(HttpStatus.BAD_REQUEST.value());
+	            response.setMessage("Invalid Username and password");
+		        return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(response); 
 	        }
-	        return response;
+	       
 	    }
 
 
@@ -151,13 +150,10 @@ public class UsersManagementService {
 	            reqRes.setStatusCode(HttpStatus.OK.value());
 	            reqRes.setMessage("User with id '" + id + "' found successfully");
 	            return ResponseEntity.ok(reqRes); // Return 200 OK response with user data
-	        } catch (RuntimeException e) {
-	            reqRes.setStatusCode(HttpStatus.NOT_FOUND.value());
-	            reqRes.setMessage(e.getMessage()); // Use the message from the RuntimeException
-	            return ResponseEntity.status(HttpStatus.NOT_FOUND).body(reqRes); // Return 404 Not Found
+	        
 	        } catch (Exception e) {
-	            reqRes.setStatusCode(HttpStatus.INTERNAL_SERVER_ERROR.value());
-	            reqRes.setMessage("Error occurred: " + e.getMessage());
+	            reqRes.setStatusCode(HttpStatus.INTERNAL_SERVER_ERROR.value());  
+	            reqRes.setMessage("User not found with id : "+id);
 	            return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body(reqRes); // Return 500 Internal Server Error
 	        }
 	    }
@@ -174,15 +170,10 @@ public class UsersManagementService {
 	            reqRes.setMessage("User deleted successfully");
 	            reqRes.setStatusCode(HttpStatus.OK.value());
 	            return ResponseEntity.ok(reqRes); // Use ResponseEntity.ok() for better readability
-	        } catch (UserNotFoundException e) {
-	            reqRes.setStatusCode(HttpStatus.NOT_FOUND.value());
-	            reqRes.setMessage(e.getMessage()); // Get the message from the custom exception
-	            return ResponseEntity.status(HttpStatus.NOT_FOUND).body(reqRes); // Return 404 response
-	        } catch (Exception e) {
+	        }  catch (Exception e) {
 	            reqRes.setStatusCode(HttpStatus.INTERNAL_SERVER_ERROR.value());
-	            reqRes.setMessage("Error occurred while deleting user: " + e.getMessage()); // Adjusted message to reflect deletion
-	            // Log the exception for debugging
-	            e.printStackTrace(); // You can use a logger instead of printStackTrace
+	            reqRes.setMessage("User not found with id : "+id);
+	  
 	            return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body(reqRes); // Return 500 response
 	        }
 	    }
@@ -212,14 +203,9 @@ public class UsersManagementService {
 	            reqRes.setMessage("User updated successfully");
 	            reqRes.setStatusCode(HttpStatus.OK.value());
 	            return ResponseEntity.ok(reqRes); // Use ResponseEntity.ok() for better readability
-	        } catch (UserNotFoundException e) {
-	            reqRes.setStatusCode(HttpStatus.NOT_FOUND.value());
-	            reqRes.setMessage(e.getMessage()); // Get the message from the custom exception
-	            return ResponseEntity.status(HttpStatus.NOT_FOUND).body(reqRes); // Return 404 response
 	        } catch (Exception e) {
 	            reqRes.setStatusCode(HttpStatus.INTERNAL_SERVER_ERROR.value());
-	            reqRes.setMessage("Error occurred while updating user: " + e.getMessage());
-	            e.printStackTrace(); // You can use a logger instead of printStackTrace
+	            reqRes.setMessage("User not found with id : "+userId);
 	            return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body(reqRes); // Return 500 response
 	        }
 	    }
