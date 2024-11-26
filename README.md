@@ -46,10 +46,10 @@
  </pre>
 
 
- <p>2. For Security</p>
+ <p>2. For JWT</p>
     <pre>
      <code>
-            <p><!-- https://mvnrepository.com/artifact/io.jsonwebtoken/jjwt-api --></p>
+            <!-- https://mvnrepository.com/artifact/io.jsonwebtoken/jjwt-api -->
             &lt;dependency&gt;
                 &lt;groupId&gt;io.jsonwebtoken<&lt;/groupId&gt;
                 &lt;artifactId&gt;jjwt-api;/artifactId&gt;
