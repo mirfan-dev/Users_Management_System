@@ -13,8 +13,11 @@
 
 # Important Dependency to be used
 <p>1. For REST API</p>
-
+    <pre>
+     <code>
             &lt;dependency&gt;
                 &lt;groupId&gt;org.springframework.boot&lt;/groupId&gt;
                 &lt;artifactId&gt;spring-boot-starter-web&lt;/artifactId&gt;
             &lt;/dependency&gt;
+   </code>            
+ </pre>
