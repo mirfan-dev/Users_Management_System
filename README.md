@@ -12,9 +12,9 @@
 <p>10.Create JwtAuthenticationController to return the JwtResponse if everything works fine</p>
 
 # Important Dependency to be used
-<p>1. For rest api</p>
-      <p><dependency>
-         <groupId>org.springframework.boot</groupId>
-         <artifactId>spring-boot-starter-web</artifactId>
-     </dependency></p>
+<p>1. For REST API</p>
 
+            &lt;dependency&gt;
+                &lt;groupId&gt;org.springframework.boot&lt;/groupId&gt;
+                &lt;artifactId&gt;spring-boot-starter-web&lt;/artifactId&gt;
+            &lt;/dependency&gt;
