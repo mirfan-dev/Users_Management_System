@@ -70,7 +70,7 @@
    
 
 
-       &lt;--- </p>jjwt-gson if Gson is preferred ---&gt;
+       &lt;!--- </p>jjwt-gson if Gson is preferred ---&gt;
         &lt;dependency&gt;
             &lt;groupId&gt;io.jsonwebtoken&lt;/groupId&gt;
             &lt;artifactId&gt;jjwt-jackson&lt;/artifactId&gt;
