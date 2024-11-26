@@ -47,8 +47,6 @@
 
 
  <p>2. For JWT</p>
-
-   
     <pre>
     <code>
      <p><!-- https://mvnrepository.com/artifact/io.jsonwebtoken/jjwt-api --></p>
