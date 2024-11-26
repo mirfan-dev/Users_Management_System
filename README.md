@@ -47,9 +47,10 @@
 
 
  <p>2. For JWT</p>
-     <p> https://mvnrepository.com/artifact/io.jsonwebtoken/jjwt-api </p>
-    <pre>
+
+<pre>
     <code>
+        <!-- https://mvnrepository.com/artifact/io.jsonwebtoken/jjwt-api -->
         &lt;dependency&gt;
             &lt;groupId&gt;io.jsonwebtoken&lt;/groupId&gt;
             &lt;artifactId&gt;jjwt-api&lt;/artifactId&gt;
@@ -57,5 +58,6 @@
         &lt;/dependency&gt;
     </code>
 </pre>
+
 
  
