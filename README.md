@@ -50,7 +50,7 @@
 
 <pre>
     <code>
-      <p>https://mvnrepository.com/artifact/io.jsonwebtoken/jjwt-api</p>
+      <p><p><!---</p>https://mvnrepository.com/artifact/io.jsonwebtoken/jjwt-api<p>---></p></p>
         &lt;dependency&gt;
             &lt;groupId&gt;io.jsonwebtoken&lt;/groupId&gt;
             &lt;artifactId&gt;jjwt-api&lt;/artifactId&gt;
@@ -60,7 +60,7 @@
 
 
 
-      <p>https://mvnrepository.com/artifact/io.jsonwebtoken/jjwt-impl</p>
+      <p><p><!---</p>https://mvnrepository.com/artifact/io.jsonwebtoken/jjwt-impl <p>---></p></p>
         &lt;dependency&gt;
             &lt;groupId&gt;io.jsonwebtoken&lt;/groupId&gt;
             &lt;artifactId&gt;jjwt-impl&lt;/artifactId&gt;
@@ -70,7 +70,7 @@
    
 
 
-      <p>jjwt-gson if Gson is preferred</p>
+      <p><p><!---</p>jjwt-gson if Gson is preferred <p>---></p></p>
         &lt;dependency&gt;
             &lt;groupId&gt;io.jsonwebtoken&lt;/groupId&gt;
             &lt;artifactId&gt;jjwt-jackson&lt;/artifactId&gt;
