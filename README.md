@@ -13,4 +13,8 @@
 
 # Important Dependency to be used
 <p>1. For rest api</p>
+      <p><dependency>
+         <groupId>org.springframework.boot</groupId>
+         <artifactId>spring-boot-starter-web</artifactId>
+     </dependency></p>
 
