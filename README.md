@@ -32,3 +32,16 @@
             &lt;/dependency&gt;
    </code>            
  </pre>
+
+ 
+<p>2. For Security</p>
+    <pre>
+     <code>
+            &lt;dependency&gt;
+                &lt;groupId&gt;org.springframework.boot&lt;/groupId&gt;
+                &lt;artifactId&gt;spring-boot-starter-security;/artifactId&gt;
+                &lt;optional&gt;true&lt;/optional&gt;
+            &lt;/dependency&gt;
+   </code>            
+ </pre>
+ 
