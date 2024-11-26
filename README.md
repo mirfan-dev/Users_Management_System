@@ -60,4 +60,17 @@
 </pre>
 
 
+<pre>
+    <code>
+      <p>https://mvnrepository.com/artifact/io.jsonwebtoken/jjwt-impl</p>
+        &lt;dependency&gt;
+            &lt;groupId&gt;io.jsonwebtoken&lt;/groupId&gt;
+            &lt;artifactId&gt;jjwt-impl&lt;/artifactId&gt;
+            &lt;version&gt;0.11.5&lt;/version&gt;
+            &lt;scope&gt;runtime&lt;/scope&gt;
+        &lt;/dependency&gt;
+    </code>
+</pre>
+
+
  
