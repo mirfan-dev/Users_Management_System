@@ -21,3 +21,14 @@
             &lt;/dependency&gt;
    </code>            
  </pre>
+
+ <p>2. For Getter and Setter</p>
+    <pre>
+     <code>
+            &lt;dependency&gt;
+                &lt;groupId&gt;org.projectlombok&lt;/groupId&gt;
+                &lt;artifactId&gt;lombok&lt;/artifactId&gt;
+                &lt;optional&gt;true&lt;/optional&gt;
+            &lt;/dependency&gt;
+   </code>            
+ </pre>
