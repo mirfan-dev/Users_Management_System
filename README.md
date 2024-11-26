@@ -44,4 +44,17 @@
             &lt;/dependency&gt;
    </code>            
  </pre>
+
+
+ <p>2. For Security</p>
+    <pre>
+     <code>
+            <p><!-- https://mvnrepository.com/artifact/io.jsonwebtoken/jjwt-api --></p>
+            &lt;dependency&gt;
+                &lt;groupId&gt;io.jsonwebtoken<&lt;/groupId&gt;
+                &lt;artifactId&gt;jjwt-api;/artifactId&gt;
+                &lt;version&gt;0.11.5&lt;/version&gt;
+            &lt;/dependency&gt;
+   </code>            
+ </pre>
  
