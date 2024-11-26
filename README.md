@@ -73,4 +73,17 @@
 </pre>
 
 
+<pre>
+    <code>
+      <p>jjwt-gson if Gson is preferred</p>
+        &lt;dependency&gt;
+            &lt;groupId&gt;io.jsonwebtoken&lt;/groupId&gt;
+            &lt;artifactId&gt;jjwt-jackson&lt;/artifactId&gt;
+            &lt;version&gt;0.11.5&lt;/version&gt;
+            &lt;scope&gt;runtime&lt;/scope&gt;
+        &lt;/dependency&gt;
+    </code>
+</pre>
+
+
  
