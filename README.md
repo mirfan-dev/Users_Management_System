@@ -12,7 +12,8 @@
 <p><li>The JWT Utility class is responsible for generating, validating, and extracting information from JSON Web Tokens (JWTs). These tokens are used for securing your Spring Boot APIs and authenticating users.</li></p>
 <b>Step 6: Create the OurUserDetailsService Class</b><br>
 <p><li>This service will implement UserDetailsService to load user details by email:</li></p>
-<p>6.Create JwtHelper Class which is used to perform action like validateToken and generateToken etc</p>
+<b>Step 7: Set Up Security Configuration (SecurityConfig)</b><br>
+<p><li>Configure Spring Security to handle authentication, role-based access, JWT authentication, and stateless session management:</li></p>
 <p>7.Create JWTAuthenticationFilter class which is used for the filter purpose</p>
 <p>8.Create SecurityFilterConfig class to define request processing logic</p>
 <p>9.Create JwtRequest and JwtResponse class</p>
