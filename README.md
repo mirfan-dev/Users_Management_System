@@ -20,6 +20,8 @@
 <p><li>This class will implement the business logic for managing users, such as registering users and fetching user details. It will interact with the UsersRepo repository.</li></p>
 <b>Step 10: Implement Controller Class (UserController)</b><br>
 <p><li>Now, you can implement a controller class to expose the user management APIs (for registration, login, updating, and deleting users):</li></p>
+<b>Step 1: Define CorsConfig Class<b><br>
+<p><li>This class ensures that your Spring Boot application can accept requests from different origins (e.g., frontend applications running on different servers or ports). The configuration defines which HTTP methods (GET, POST, PUT, DELETE) and which origins are allowed to interact with your API.</li></p>
 
 # Important Dependency to be used
 <p>1. For REST API</p>
