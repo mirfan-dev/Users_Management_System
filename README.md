@@ -18,8 +18,8 @@
 <p><li>This filter extracts JWT tokens from the request, validates them, and sets the authentication context:</li></p>
 <b>Step 9: Implement OurUserServiceImpl Class</b><br>
 <p><li>This class will implement the business logic for managing users, such as registering users and fetching user details. It will interact with the UsersRepo repository.</li></p>
-<p>9.Create JwtRequest and JwtResponse class</p>
-<p>10.Create JwtAuthenticationController to return the JwtResponse if everything works fine</p>
+<b>Step 10: Implement Controller Class (UserController)</b><br>
+<p><li>Now, you can implement a controller class to expose the user management APIs (for registration, login, updating, and deleting users):</li></p>
 
 # Important Dependency to be used
 <p>1. For REST API</p>
