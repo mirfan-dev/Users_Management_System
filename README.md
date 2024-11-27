@@ -6,7 +6,8 @@
 <p><li>The OurUsers class represents the users in the system, storing details like email, name, password, city, and role. It also implements UserDetails for integration with Spring Security.</li></p>
 <b>Step 3: Create DTO Class (ReqRes)</b><br>
 <p><li>This Data Transfer Object (DTO) is used for handling requests and responses, including validation annotations.</li></p>
-<p>4.Create the SpringSecurityConfig class to define the bean like PasswordEncoder, UserDetailsService and AuthenticationManager</li></p>
+<b>Step 4: Create JWT Utility (JWTUtils)</b><br>
+<p><li>The JWT Utility class is responsible for generating, validating, and extracting information from JSON Web Tokens (JWTs). These tokens are used for securing your Spring Boot APIs and authenticating users.</li></p>
 <p>5.Create JwtAuthenticationEntryPoint Class Which implements AuthenticationEntryPoint interface and override method commence</p>
 <p>6.Create JwtHelper Class which is used to perform action like validateToken and generateToken etc</p>
 <p>7.Create JWTAuthenticationFilter class which is used for the filter purpose</p>
