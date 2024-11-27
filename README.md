@@ -1,4 +1,4 @@
-# JWT Authentication using Spring Boot 
+# Role-Based Access Control (RBAC) using Spring Boot 
 # Step To Be Followed
 <b>Step 1: Set Up Spring Boot Project</b><br>
     <p><li>Ensure you have a Spring Boot project set up with dependencies for Spring Security, JWT, Lombok, and any other required components. You can add the following dependencies to your pom.xml.</li></p>
