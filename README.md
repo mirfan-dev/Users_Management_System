@@ -4,6 +4,8 @@
     <p><li>Ensure you have a Spring Boot project set up with dependencies for Spring Security, JWT, Lombok, and any other required components. You can add the following dependencies to your pom.xml.</li></p>
 <b>Step 2: Define the Entity OurUsers</b><br>
 <p><li>The OurUsers class represents the users in the system, storing details like email, name, password, city, and role. It also implements UserDetails for integration with Spring Security.</li></p>
+<b>Step 3: Create the UsersRepo Repository</b><br>
+<p><li>First, ensure that you have a UsersRepo repository interface that interacts with your database. This repository will handle the retrieval of user details.</li></p>
 <b>Step 3: Create DTO Class (ReqRes)</b><br>
 <p><li>This Data Transfer Object (DTO) is used for handling requests and responses, including validation annotations.</li></p>
 <b>Step 4: Create JWT Utility (JWTUtils)</b><br>
