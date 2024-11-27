@@ -1,8 +1,9 @@
 # JWT Authentication using Spring Boot 
 # Step To Be Followed
 <b>Step 1: Set Up Spring Boot Project</b><br>
-    <p><li>Ensure you have a Spring Boot project set up with dependencies for Spring Security, JWT, Spring Data JPA, and any other required components. You can add the following dependencies to your pom.xml.</li></p>
-<p>2.Secure the Rest API by adding security dependecy</p>
+    <p><li>Ensure you have a Spring Boot project set up with dependencies for Spring Security, JWT, Lombok, and any other required components. You can add the following dependencies to your pom.xml.</li></p>
+<b>Step 2: Define the Entity OurUsers</b><br>
+<p><li>The OurUsers class represents the users in the system, storing details like email, name, password, city, and role. It also implements UserDetails for integration with Spring Security.</li></p>
 <p>3.Use the properties file to create custom username and password for authentication</p>
 <p>4.Create the SpringSecurityConfig class to define the bean like PasswordEncoder, UserDetailsService and AuthenticationManager</p>
 <p>5.Create JwtAuthenticationEntryPoint Class Which implements AuthenticationEntryPoint interface and override method commence</p>
