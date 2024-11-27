@@ -4,8 +4,9 @@
     <p><li>Ensure you have a Spring Boot project set up with dependencies for Spring Security, JWT, Lombok, and any other required components. You can add the following dependencies to your pom.xml.</li></p>
 <b>Step 2: Define the Entity OurUsers</b><br>
 <p><li>The OurUsers class represents the users in the system, storing details like email, name, password, city, and role. It also implements UserDetails for integration with Spring Security.</li></p>
-<p>3.Use the properties file to create custom username and password for authentication</p>
-<p>4.Create the SpringSecurityConfig class to define the bean like PasswordEncoder, UserDetailsService and AuthenticationManager</p>
+<b>Step 3: Create DTO Class (ReqRes)</b><br>
+<p><li>This Data Transfer Object (DTO) is used for handling requests and responses, including validation annotations.</li></p>
+<p>4.Create the SpringSecurityConfig class to define the bean like PasswordEncoder, UserDetailsService and AuthenticationManager</li></p>
 <p>5.Create JwtAuthenticationEntryPoint Class Which implements AuthenticationEntryPoint interface and override method commence</p>
 <p>6.Create JwtHelper Class which is used to perform action like validateToken and generateToken etc</p>
 <p>7.Create JWTAuthenticationFilter class which is used for the filter purpose</p>
