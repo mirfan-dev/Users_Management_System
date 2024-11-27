@@ -14,7 +14,8 @@
 <p><li>This service will implement UserDetailsService to load user details by email:</li></p>
 <b>Step 7: Set Up Security Configuration (SecurityConfig)</b><br>
 <p><li>Configure Spring Security to handle authentication, role-based access, JWT authentication, and stateless session management:</li></p>
-<p>7.Create JWTAuthenticationFilter class which is used for the filter purpose</p>
+<b>Step 7: Set Up Security Configuration (SecurityConfig)</b><br>
+<p><li>Create JWTAuthenticationFilter class which is used for the filter purpose</li></p>
 <p>8.Create SecurityFilterConfig class to define request processing logic</p>
 <p>9.Create JwtRequest and JwtResponse class</p>
 <p>10.Create JwtAuthenticationController to return the JwtResponse if everything works fine</p>
