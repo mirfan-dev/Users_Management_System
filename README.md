@@ -135,7 +135,8 @@ BeIXsbuNGswB2zyzayooae4JNqdu",
 </pre>
 
 # Login
-![WhatsApp Image 2024-11-28 at 4 17 10 PM](https://github.com/user-attachments/assets/152ceb9e-96c8-4de3-b1a0-75e0fe893c7b)
+
+![WhatsApp Image 2024-11-28 at 4 48 29 PM](https://github.com/user-attachments/assets/d53d7dfd-48b3-4408-9d1a-0444edccdc64)
 
 <pre>
     <code>
