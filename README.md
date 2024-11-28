@@ -223,3 +223,30 @@ BeIXsbuNGswB2zyzayooae4JNqdu",
 # Get User By Id
 
 ![WhatsApp Image 2024-11-28 at 4 49 56 PM](https://github.com/user-attachments/assets/bee35317-43ea-4f45-ac76-ff05658d952c)
+
+<pre>
+    <code>
+        {
+    "statusCode": 200,
+    "message": "Users with id '1' found successfully",
+    "ourUsers": {
+        "id": 1,
+        "email": "mirfan@gmail.com",
+        "name": "Md Irfan",
+        "password": "$2a$10$CUMXOMLnxkAfPkzrh7RABukhOBeIXsbuNGswB2zyzayooae4JNqdu",
+        "city": "Siwan",
+        "role": "ADMIN",
+        "enabled": true,
+        "authorities": [
+            {
+                "authority": "ADMIN"
+            }
+        ],
+        "username": "mirfan@gmail.com",
+        "credentialsNonExpired": true,
+        "accountNonExpired": true,
+        "accountNonLocked": true
+    }
+}
+    </code>
+</pre>
