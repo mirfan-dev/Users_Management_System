@@ -103,7 +103,8 @@ https://jwt.io/#debugger
 
 # Register
 
-![WhatsApp Image 2024-11-28 at 4 07 41 PM](https://github.com/user-attachments/assets/4478ace4-4931-431a-bc93-b0d9d93890f0)
+
+![WhatsApp Image 2024-11-28 at 4 48 13 PM](https://github.com/user-attachments/assets/c460a0a2-cf9a-47df-ab8c-55b4c40a8542)
 
 <pre>
     <code>
