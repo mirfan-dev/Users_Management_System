@@ -250,3 +250,7 @@ BeIXsbuNGswB2zyzayooae4JNqdu",
 }
     </code>
 </pre>
+
+# Delete
+
+![WhatsApp Image 2024-11-28 at 4 53 43 PM](https://github.com/user-attachments/assets/542b61c5-178f-4900-9669-b8b4a2770217)
