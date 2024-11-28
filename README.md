@@ -100,3 +100,29 @@
 ![Jwt image](https://github.com/user-attachments/assets/f57f6cff-19dd-4bb2-81d1-008993a32c06)
 
 https://jwt.io/#debugger
+<pre>
+    <code>
+{
+    "statusCode": 200,
+    "message": "User Saved Successfully",
+    "ourUsers": {
+        "id": 1,
+        "email": "mirfan@gmail.com",
+        "name": "Md Irfan",
+        "password": "$2a$10$CUMXOMLnxkAfPkzrh7RABukhOBeIXsbuNGswB2zyzayooae4JNqdu",
+        "city": "Siwan",
+        "role": "ADMIN",
+        "enabled": true,
+        "username": "mirfan@gmail.com",
+        "authorities": [
+            {
+                "authority": "ADMIN"
+            }
+        ],
+        "accountNonLocked": true,
+        "credentialsNonExpired": true,
+        "accountNonExpired": true
+    }
+}
+    </code>
+</pre>
