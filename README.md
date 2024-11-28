@@ -226,57 +226,24 @@ BeIXsbuNGswB2zyzayooae4JNqdu",
 
 <pre>
     <code>
-        {
-    "statusCode": 200,
-    "message": "Users with id '1' found successfully",
-    "ourUsers": {
-        "id": 1,
-        "email": "mirfan@gmail.com",
-        "name": "Md Irfan",
-        "password": "$2a$10$CUMXOMLnxkAfPkzrh7RABukhOBeIXsbuNGswB2zyzayooae4JNqdu",
-        "city": "Siwan",
-        "role": "ADMIN",
-        "enabled": true,
-        "authorities": [
-            {
-                "authority": "ADMIN"
-            }
-        ],
-        "username": "mirfan@gmail.com",
-        "credentialsNonExpired": true,
-        "accountNonExpired": true,
-        "accountNonLocked": true
+       {
+        "statusCode": 200,
+        "message": "User deleted successfully"
     }
-}
     </code>
 </pre>
 
 # Delete
 
-![WhatsApp Image 2024-11-28 at 4 53 43 PM](https://github.com/user-attachments/assets/542b61c5-178f-4900-9669-b8b4a2770217)
+
+![WhatsApp Image 2024-11-28 at 6 08 43 PM](https://github.com/user-attachments/assets/51e6eaa6-8c9d-4053-b59c-265e2a48ab51)
 
 <pre>
     <code>
         {
     "statusCode": 200,
-    "message": "Users with id '3' found successfully",
-    "ourUsers": {
-        "id": 3,
-        "email": "gufran@gmail.com",
-        "name": "Gufran Ali",
-        "password": "$2a$10$P4n6bF0XtzFTa8AjYEvZm.46WjwVjenDX30YgRAqcTEZHId.TU9Cu",
-        "city": "Siwan",
-        "role": "ADMIN",
-        "enabled": true,
-        "authorities": [
-            {
-                "authority": "ADMIN"
-            }
-        ],
-        "username": "gufran@gmail.com",
-        "credentialsNonExpired": true,
-        "accountNonExpired": true,
-        "accountNonLocked": true
+    "message": "User deleted successfully"
+}
     }
 }
     </code>
