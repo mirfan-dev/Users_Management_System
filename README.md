@@ -241,10 +241,12 @@ BeIXsbuNGswB2zyzayooae4JNqdu",
 <pre>
     <code>
         {
-    "statusCode": 200,
-    "message": "User deleted successfully"
-}
+        "statusCode": 200,
+        "message": "User deleted successfully"
     }
-}
     </code>
 </pre>
+
+# Update
+![WhatsApp Image 2024-11-28 at 5 00 18 PM](https://github.com/user-attachments/assets/10ca71b8-dfe9-4ea3-b3c9-7a812c5b8e09)
+
