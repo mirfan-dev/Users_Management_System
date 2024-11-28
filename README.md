@@ -101,6 +101,8 @@
 
 https://jwt.io/#debugger
 
+# Register
+
 ![WhatsApp Image 2024-11-28 at 4 07 41 PM](https://github.com/user-attachments/assets/4478ace4-4931-431a-bc93-b0d9d93890f0)
 
 <pre>
@@ -112,7 +114,8 @@ https://jwt.io/#debugger
         "id": 1,
         "email": "mirfan@gmail.com",
         "name": "Md Irfan",
-        "password": "$2a$10$CUMXOMLnxkAfPkzrh7RABukhOBeIXsbuNGswB2zyzayooae4JNqdu",
+        "password": "$2a$10$CUMXOMLnxkAfPkzrh7RABukhO![WhatsApp Image 2024-11-28 at 4 17 10 PM](https://github.com/user-attachments/assets/377f25e8-225d-4d04-96d5-7d57c6703d25)
+BeIXsbuNGswB2zyzayooae4JNqdu",
         "city": "Siwan",
         "role": "ADMIN",
         "enabled": true,
@@ -126,6 +129,22 @@ https://jwt.io/#debugger
         "credentialsNonExpired": true,
         "accountNonExpired": true
     }
+}
+    </code>
+</pre>
+
+# Login
+![WhatsApp Image 2024-11-28 at 4 17 10 PM](https://github.com/user-attachments/assets/152ceb9e-96c8-4de3-b1a0-75e0fe893c7b)
+
+<pre>
+    <code>
+        {
+    "statusCode": 200,
+    "message": "Successfully Logged In",
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJtaXJmYW5AZ21haWwuY29tIiwiaWF0IjoxNzMyNzkwNTA2LCJleHAiOjE3MzI4NzY5MDZ9.2zb5LtYjFHWUlTDpFJCypgubmloyyR5CER9VvzH--XI",
+    "refreshToken": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJtaXJmYW5AZ21haWwuY29tIiwiaWF0IjoxNzMyNzkwNTA2LCJleHAiOjE3MzI4NzY5MDZ9.2zb5LtYjFHWUlTDpFJCypgubmloyyR5CER9VvzH--XI",
+    "expirationTime": "24Hrs",
+    "role": "ADMIN"
 }
     </code>
 </pre>
