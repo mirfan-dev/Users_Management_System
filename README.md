@@ -254,3 +254,30 @@ BeIXsbuNGswB2zyzayooae4JNqdu",
 # Delete
 
 ![WhatsApp Image 2024-11-28 at 4 53 43 PM](https://github.com/user-attachments/assets/542b61c5-178f-4900-9669-b8b4a2770217)
+
+<pre>
+    <code>
+        {
+    "statusCode": 200,
+    "message": "Users with id '3' found successfully",
+    "ourUsers": {
+        "id": 3,
+        "email": "gufran@gmail.com",
+        "name": "Gufran Ali",
+        "password": "$2a$10$P4n6bF0XtzFTa8AjYEvZm.46WjwVjenDX30YgRAqcTEZHId.TU9Cu",
+        "city": "Siwan",
+        "role": "ADMIN",
+        "enabled": true,
+        "authorities": [
+            {
+                "authority": "ADMIN"
+            }
+        ],
+        "username": "gufran@gmail.com",
+        "credentialsNonExpired": true,
+        "accountNonExpired": true,
+        "accountNonLocked": true
+    }
+}
+    </code>
+</pre>
