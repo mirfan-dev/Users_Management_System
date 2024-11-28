@@ -100,6 +100,9 @@
 ![Jwt image](https://github.com/user-attachments/assets/f57f6cff-19dd-4bb2-81d1-008993a32c06)
 
 https://jwt.io/#debugger
+
+![WhatsApp Image 2024-11-28 at 4 07 41 PM](https://github.com/user-attachments/assets/4478ace4-4931-431a-bc93-b0d9d93890f0)
+
 <pre>
     <code>
 {
