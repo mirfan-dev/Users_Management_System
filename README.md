@@ -219,3 +219,7 @@ BeIXsbuNGswB2zyzayooae4JNqdu",
 }
     </code>
 </pre>
+
+# Get User By Id
+
+![WhatsApp Image 2024-11-28 at 4 49 56 PM](https://github.com/user-attachments/assets/bee35317-43ea-4f45-ac76-ff05658d952c)
