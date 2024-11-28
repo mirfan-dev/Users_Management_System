@@ -154,3 +154,68 @@ BeIXsbuNGswB2zyzayooae4JNqdu",
 # GET All USER
 
 ![WhatsApp Image 2024-11-28 at 4 47 56 PM](https://github.com/user-attachments/assets/eb813d52-9eca-4037-acf1-cede5178e7b0)
+
+<pre>
+    <code>
+        {
+    "statusCode": 200,
+    "message": "Successful",
+    "ourUsersList": [
+        {
+            "id": 1,
+            "email": "mirfan@gmail.com",
+            "name": "Md Irfan",
+            "password": "$2a$10$CUMXOMLnxkAfPkzrh7RABukhOBeIXsbuNGswB2zyzayooae4JNqdu",
+            "city": "Siwan",
+            "role": "ADMIN",
+            "enabled": true,
+            "authorities": [
+                {
+                    "authority": "ADMIN"
+                }
+            ],
+            "username": "mirfan@gmail.com",
+            "credentialsNonExpired": true,
+            "accountNonExpired": true,
+            "accountNonLocked": true
+        },
+        {
+            "id": 2,
+            "email": "gufran@gmail.com",
+            "name": "Gufran Ali",
+            "password": "$2a$10$SGwPEXJRaT4d5gi2KU1fcudmtFuRMYlS.jdPTPbdoseNZfRgWqHsS",
+            "city": "Siwan",
+            "role": "USER",
+            "enabled": true,
+            "authorities": [
+                {
+                    "authority": "USER"
+                }
+            ],
+            "username": "gufran@gmail.com",
+            "credentialsNonExpired": true,
+            "accountNonExpired": true,
+            "accountNonLocked": true
+        },
+        {
+            "id": 3,
+            "email": "gufran@gmail.com",
+            "name": "Gufran Ali",
+            "password": "$2a$10$P4n6bF0XtzFTa8AjYEvZm.46WjwVjenDX30YgRAqcTEZHId.TU9Cu",
+            "city": "Siwan",
+            "role": "ADMIN",
+            "enabled": true,
+            "authorities": [
+                {
+                    "authority": "ADMIN"
+                }
+            ],
+            "username": "gufran@gmail.com",
+            "credentialsNonExpired": true,
+            "accountNonExpired": true,
+            "accountNonLocked": true
+        }
+    ]
+}
+    </code>
+</pre>
