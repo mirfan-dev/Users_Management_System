@@ -150,3 +150,7 @@ BeIXsbuNGswB2zyzayooae4JNqdu",
 }
     </code>
 </pre>
+
+# GET All USER
+
+![WhatsApp Image 2024-11-28 at 4 47 56 PM](https://github.com/user-attachments/assets/eb813d52-9eca-4037-acf1-cede5178e7b0)
