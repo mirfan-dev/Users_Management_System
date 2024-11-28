@@ -250,3 +250,30 @@ BeIXsbuNGswB2zyzayooae4JNqdu",
 # Update
 ![WhatsApp Image 2024-11-28 at 5 00 18 PM](https://github.com/user-attachments/assets/10ca71b8-dfe9-4ea3-b3c9-7a812c5b8e09)
 
+<pre>
+    <code>
+        {
+    "statusCode": 200,
+    "message": "User updated successfully",
+    "ourUsers": {
+        "id": 2,
+        "email": "gufran@gmail.com",
+        "name": "Gufran Ali",
+        "password": "$2a$10$zrf0G3f4VAGKwQ/uo1IbI.mekA352vKVHMBsBmSEaWowgdObrjBWW",
+        "city": "Siwan",
+        "role": "USER",
+        "enabled": true,
+        "authorities": [
+            {
+                "authority": "USER"
+            }
+        ],
+        "username": "gufran@gmail.com",
+        "credentialsNonExpired": true,
+        "accountNonExpired": true,
+        "accountNonLocked": true
+    }
+}
+    </code>
+</pre>
+
